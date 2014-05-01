@@ -1,0 +1,9 @@
+<p class="summary">This is your Academics Overview page. Here you can tell prospective students what makes your degree programs special. Then consider listing all of your programs grouped by undergraduate and graduate programs.</p>
+<p>To edit the page and remove this placeholder content, click on the &quot;Edit&quot; tab near the top of the page. When finished, be sure to scroll down to the bottom of the page and click &quot;Save.&quot;</p>
+<h2>Undergraduate Programs</h2>
+<p>Proin scelerisque varius justo, quis pharetra nulla pellentesque at. Ut pulvinar sollicitudin erat vel gravida. Nam volutpat facilisis augue, id feugiat sapien fringilla a. Nam mollis pretium augue sit amet pharetra. Nam pulvinar porttitor elementum.</p>
+<p><a class="more-link" href="academics/undergraduate-program">Learn more about the undergraduate program</a></p>
+<h2>Graduate Programs</h2>
+<p>Proin scelerisque varius justo, quis pharetra nulla pellentesque at. Ut pulvinar sollicitudin erat vel gravida. Nam volutpat facilisis augue, id feugiat sapien fringilla a. Nam mollis pretium augue sit amet pharetra. Nam pulvinar porttitor elementum.</p>
+<p><a class="more-link" href="academics/graduate-programs">Learn more about the graduate programs</a></p>
+

@@ -1,0 +1,6 @@
+<p>This is your shortcuts block to get prospective and current students to the academic program pages. Edit this block to prompt students to click on the following two links:</p>
+<ul>
+	<li><a class="more-link" href="/information-for/undergraduates">Undergraduate Program</a></li>
+	<li><a class="more-link" href="/information-for/graduates">Graduate Programs</a></li>
+</ul>
+
