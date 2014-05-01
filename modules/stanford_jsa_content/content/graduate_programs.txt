@@ -1,9 +1,0 @@
-<p class="summary">This is your Graduate Overview page. Here you can tell prospective students what makes your degree programs special. Then consider listing all of your programs, including a short overview of each program.</p>
-<p>To edit the page and remove this placeholder content, click on the &quot;Edit&quot; tab near the top of the page. When finished, be sure to scroll down to the bottom of the page and click &quot;Save.&quot;</p>
-<h2>Doctoral Program</h2>
-<p>Proin scelerisque varius justo, quis pharetra nulla pellentesque at. Ut pulvinar sollicitudin erat vel gravida. Nam volutpat facilisis augue, id feugiat sapien fringilla a. Nam mollis pretium augue sit amet pharetra. Nam pulvinar porttitor elementum.</p>
-<p><a class="more-link" href="graduate-programs/doctoral-program">Learn more about the doctoral program</a></p>
-<h2>Masters Program</h2>
-<p>Nulla pretium felis non erat venenatis commodo in id ligula. Integer ornare, odio sed porta bibendum, sem tortor congue metus, auctor tincidunt sem eros vel augue. Donec ullamcorper, diam nec mollis faucibus, mi metus posuere sem, nec commodo eros dolor sed urna. Etiam nibh massa, sagittis eget tristique at, lobortis lacinia lorem.</p>
-<p><a class="more-link" href="graduate-programs/masters-program">Learn more about the masters program</a></p>
-

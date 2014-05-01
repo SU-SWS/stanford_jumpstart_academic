@@ -1,3 +1,0 @@
-<p>This is your featured event block. Here you can highlight an upcoming or past event, or spotlight an annual event like Commencement.</p>
-<p>To edit the block and remove this placeholder content, hover over the block, click on the gear widget and select &quot;Edit Block.&quot; When finished, be sure to scroll down to the bottom of the page and click &quot;Save.&quot;</p>
-

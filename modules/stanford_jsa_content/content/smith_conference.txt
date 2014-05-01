@@ -1,5 +1,0 @@
-<p class="summary">This is a news item.&nbsp; Here you can post an excerpt from the Stanford Report and link to the original article or add a story of your own.</p>
-<p>To edit the page and remove this placeholder content, click on the &quot;Edit&quot; tab near the top of the page. When finished, be sure to scroll down to the bottom of the page and click &quot;Save.&quot;</p>
-<h2>Sample Content</h2>
-<p>Smith Conference is proin lacus lacus, eleifend tristique volutpat vitae, mattis nec nisl. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-
