@@ -26,23 +26,23 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'bean-jumpstart-home-page-about' => array(
+        'bean-homepage-about-block' => array(
           'module' => 'bean',
-          'delta' => 'jumpstart-home-page-about',
+          'delta' => 'homepage-about-block',
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
-        'bean-jumpstart-home-page-academics' => array(
+        'bean-jumpstart-home-page-information-' => array(
           'module' => 'bean',
-          'delta' => 'jumpstart-home-page-academics',
+          'delta' => 'jumpstart-home-page-information-',
           'region' => 'sidebar_first',
           'weight' => '-9',
         ),
-        'bean-jumpstart-homepage-banner-image' => array(
+        'bean-homepage-banner-image' => array(
           'module' => 'bean',
-          'delta' => 'jumpstart-homepage-banner-image',
+          'delta' => 'homepage-banner-image',
           'region' => 'content',
-          'weight' => '-9',
+          'weight' => '-10',
         ),
         'views-f73ff55b085ea49217d347de6630cd5a' => array(
           'module' => 'views',
