@@ -1,7 +1,7 @@
 name = Stanford Sites Jumpstart Academic Roles and Permissions
 description = Roles and permissions for the Stanford Sites Jumpstart Academic service
 core = 7.x
-package = Stanford Sites Jumpstart
+package = Stanford Sites Jumpstart Academic
 version = 7.x-3.x-dev
 project = stanford_jsa_roles
 dependencies[] = features
