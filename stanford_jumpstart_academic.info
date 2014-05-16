@@ -1,6 +1,6 @@
 name = Stanford Sites Jumpstart Academic
 description = For All things custom with the Jumpstart Academic Product
 core = 7.x
-version = 7.x-4.x-dev
+version = 7.x-4.0-alpha1
 project = stanford_jumpstart_academic
 dependencies[] = stanford_jumpstart

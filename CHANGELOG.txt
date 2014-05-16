@@ -1,0 +1,6 @@
+Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
+-------------------------------------------
+
+Stanford Sites Jumpstart Academic 7.x-4.0-alpha1 2014-05-16
+--------------------------------------------------
+- Initial Release to match JSA 4.1.1
