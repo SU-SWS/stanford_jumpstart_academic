@@ -499,7 +499,7 @@ function stanford_jsa_roles_user_default_permissions() {
       0 => 'administrator',
       1 => 'site owner',
     ),
-    'module' => 'stanford_jumpstart_shortcuts',
+    'module' => 'stanford_jsa_shortcuts',
   );
 
   return $permissions;
