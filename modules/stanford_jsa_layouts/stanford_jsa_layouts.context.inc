@@ -223,17 +223,11 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views--exp-courses-search_page' => array(
+        'views-85c57f65aa0dee37d8aa5a5031e564bc' => array(
           'module' => 'views',
-          'delta' => '-exp-courses-search_page',
+          'delta' => '85c57f65aa0dee37d8aa5a5031e564bc',
           'region' => 'sidebar_first',
           'weight' => '-10',
-        ),
-        'views-courses-block' => array(
-          'module' => 'views',
-          'delta' => 'courses-block',
-          'region' => 'sidebar_first',
-          'weight' => '-9',
         ),
       ),
     ),
