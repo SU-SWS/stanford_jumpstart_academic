@@ -1,6 +1,13 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+Stanford Sites Jumpstart Academic 7.x-4.0-alpha2 2014-08-07
+--------------------------------------------------
+- Removed dependency on jumpstart_shortcuts and switched to jsa_shortcuts
+- BASIC-843 | Added exposed filter to courses search context
+- Swapped featured event for event calendar sidebar on upcoming events page.
+- Installation Fixes
+
 Stanford Sites Jumpstart Academic 7.x-4.0-alpha1 2014-05-16
 --------------------------------------------------
 - Initial Release to match JSA 4.1.1
