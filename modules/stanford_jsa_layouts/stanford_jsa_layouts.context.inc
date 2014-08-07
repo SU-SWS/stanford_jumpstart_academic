@@ -196,6 +196,12 @@ function stanford_jsa_layouts_context_default_contexts() {
           'region' => 'sidebar_first',
           'weight' => '3',
         ),
+        'views-85c57f65aa0dee37d8aa5a5031e564bc' => array(
+          'module' => 'views',
+          'delta' => '85c57f65aa0dee37d8aa5a5031e564bc',
+          'region' => 'sidebar_first',
+          'weight' => '-10',
+        ),
       ),
     ),
   );
