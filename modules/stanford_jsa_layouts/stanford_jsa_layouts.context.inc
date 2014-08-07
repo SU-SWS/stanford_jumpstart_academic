@@ -365,18 +365,18 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'bean-jumpstart-featured-event' => array(
-          'module' => 'bean',
-          'delta' => 'jumpstart-featured-event',
-          'region' => 'sidebar_first',
-          'weight' => '3',
-        ),
-        // 'views-934c9b9d8d2d2f2b37f050dcd3bba83c' => array(
-        //   'module' => 'views',
-        //   'delta' => '934c9b9d8d2d2f2b37f050dcd3bba83c',
-        //   'region' => 'sidebar_second',
-        //   'weight' => '-10',
+        // 'bean-jumpstart-featured-event' => array(
+        //   'module' => 'bean',
+        //   'delta' => 'jumpstart-featured-event',
+        //   'region' => 'sidebar_first',
+        //   'weight' => '3',
         // ),
+        'views-934c9b9d8d2d2f2b37f050dcd3bba83c' => array(
+          'module' => 'views',
+          'delta' => '934c9b9d8d2d2f2b37f050dcd3bba83c',
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
       ),
     ),
   );
