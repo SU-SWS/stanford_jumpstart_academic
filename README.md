@@ -1,18 +1,41 @@
-#Jumpstart Academic
-Version 7.x-1.x
+#[Stanford Jumpstart Academic](https://github.com/SU-SWS/stanford_jumpstart_academic)
+##### Version: 7.x-4.0-alpha1
+
+Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)   
+[Changelog.txt](CHANGELOG.txt)
 
 This module contains code for the JSA product. Current it is a container for other sub modules but will be the place for future additions outside of the installation profile.
 
-## Modules in this module:
 
-1. **stanford_jsa_content**
+Sub Modules
+---
 
-  Contains default content (nodes & blocks) for this product.
+**[Stanford JSA Layouts](modules/stanford_jsa_layouts)**   
+This module contains a number of contexts that provide page layout options for the home page and internal pages.
 
-2. **stanford_jsa_layouts**
+**[Stanford JSA Roles](modules/stanford_jsa_roles)**   
+This module contains a number of default user roles and permissions. Included in the roles are the ‘site owner’ and ‘editor’ roles.
 
-  Contains contexts and menus for the JSA product.
+**[Stanford JSA Shortcuts](modules/stanford_jsa_shortcuts)**   
+This module provides a shortcuts bar of menu options to the top of the page for those users with the correct permissions. In the menu are links to commonly used administrative tasks. Also included in this module is a special cache clearing function that is provided to the roles in the jumpstart roles feature. 
 
-3. **stanford_jsa_roles**
 
-  Contains the default set of roles and permissions for the JSA product..
+Installation
+---
+
+Install this module like any other module. [See Drupal Documentation](https://drupal.org/documentation/install/modules-themes/modules-7)
+
+Configuration
+---
+
+Nothing special needed.
+
+Troubleshooting
+---
+
+If you are experiencing issues with this module try reverting the feature first. If you are still experiencing issues try posting an issue on the GitHub issues page.
+
+Contribution / Collaboration
+---
+
+You are welcome to contribute functionality, bug fixes, or documentation to this module. If you would like to suggest a fix or new functionality you may add a new issue to the GitHub issue queue or you may fork this repository and submit a pull request. For more help please see [GitHub's article on fork, branch, and pull requests](https://help.github.com/articles/using-pull-requests)
