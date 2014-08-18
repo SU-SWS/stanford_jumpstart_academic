@@ -371,12 +371,12 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        // 'bean-jumpstart-featured-event' => array(
-        //   'module' => 'bean',
-        //   'delta' => 'jumpstart-featured-event',
-        //   'region' => 'sidebar_first',
-        //   'weight' => '3',
-        // ),
+        'views--exp-stanford_events_views-page' => array(
+          'module' => 'views',
+          'delta' => '-exp-stanford_events_views-page',
+          'region' => 'sidebar_first',
+          'weight' => '3',
+        ),
         'views-934c9b9d8d2d2f2b37f050dcd3bba83c' => array(
           'module' => 'views',
           'delta' => '934c9b9d8d2d2f2b37f050dcd3bba83c',
@@ -410,11 +410,17 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'views--exp-stanford_news-page_1' => array(
+          'module' => 'views',
+          'delta' => '-exp-stanford_news-page_1',
+          'region' => 'sidebar_first',
+          'weight' => '-5',
+        ),
         'bean-jumpstart-twitter-block' => array(
           'module' => 'bean',
           'delta' => 'jumpstart-twitter-block',
           'region' => 'sidebar_first',
-          'weight' => '1',
+          'weight' => '-4',
         ),
       ),
     ),
@@ -425,6 +431,7 @@ function stanford_jsa_layouts_context_default_contexts() {
   // Included for use with string extractors like potx.
   t('Landing page for News section');
   t('News');
+
   $export['news'] = $context;
 
   $context = new stdClass();
