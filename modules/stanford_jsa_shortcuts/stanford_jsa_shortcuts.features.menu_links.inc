@@ -10,8 +10,8 @@
 function stanford_jsa_shortcuts_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: menu-admin-shortcuts-add-feature:admin/stanford-jumpstart/features
-  $menu_links['menu-admin-shortcuts-add-feature:admin/stanford-jumpstart/features'] = array(
+  // Exported menu link: menu-admin-shortcuts-add-feature_add-features:admin/stanford-jumpstart/features
+  $menu_links['menu-admin-shortcuts-add-feature_add-features:admin/stanford-jumpstart/features'] = array(
     'menu_name' => 'menu-admin-shortcuts-add-feature',
     'link_path' => 'admin/stanford-jumpstart/features',
     'router_path' => 'admin/stanford-jumpstart/features',
@@ -20,16 +20,18 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
       'attributes' => array(
         'title' => 'Add features to your site',
       ),
+      'identifier' => 'menu-admin-shortcuts-add-feature_add-features:admin/stanford-jumpstart/features',
     ),
     'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '0',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
   );
-  // Exported menu link: menu-admin-shortcuts-get-help:admin/stanford-jumpstart
-  $menu_links['menu-admin-shortcuts-get-help:admin/stanford-jumpstart'] = array(
+  // Exported menu link: menu-admin-shortcuts-get-help_get-help:admin/stanford-jumpstart
+  $menu_links['menu-admin-shortcuts-get-help_get-help:admin/stanford-jumpstart'] = array(
     'menu_name' => 'menu-admin-shortcuts-get-help',
     'link_path' => 'admin/stanford-jumpstart',
     'router_path' => 'admin/stanford-jumpstart',
@@ -38,16 +40,18 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
       'attributes' => array(
         'title' => 'Learn about ways to get help',
       ),
+      'identifier' => 'menu-admin-shortcuts-get-help_get-help:admin/stanford-jumpstart',
     ),
     'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '0',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
   );
-  // Exported menu link: menu-admin-shortcuts-home:<front>
-  $menu_links['menu-admin-shortcuts-home:<front>'] = array(
+  // Exported menu link: menu-admin-shortcuts-home_home:<front>
+  $menu_links['menu-admin-shortcuts-home_home:<front>'] = array(
     'menu_name' => 'menu-admin-shortcuts-home',
     'link_path' => '<front>',
     'router_path' => '',
@@ -56,16 +60,18 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
       'attributes' => array(
         'title' => 'Home',
       ),
+      'identifier' => 'menu-admin-shortcuts-home_home:<front>',
     ),
     'module' => 'menu',
-    'hidden' => '0',
-    'external' => '1',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '0',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
   );
-  // Exported menu link: menu-admin-shortcuts-ready-to-la:admin/stanford-jumpstart/launch-checklist
-  $menu_links['menu-admin-shortcuts-ready-to-la:admin/stanford-jumpstart/launch-checklist'] = array(
+  // Exported menu link: menu-admin-shortcuts-ready-to-la_ready-to-launch:admin/stanford-jumpstart/launch-checklist
+  $menu_links['menu-admin-shortcuts-ready-to-la_ready-to-launch:admin/stanford-jumpstart/launch-checklist'] = array(
     'menu_name' => 'menu-admin-shortcuts-ready-to-la',
     'link_path' => 'admin/stanford-jumpstart/launch-checklist',
     'router_path' => 'admin/stanford-jumpstart/launch-checklist',
@@ -74,129 +80,18 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
       'attributes' => array(
         'title' => '',
       ),
+      'identifier' => 'menu-admin-shortcuts-ready-to-la_ready-to-launch:admin/stanford-jumpstart/launch-checklist',
     ),
     'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '0',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 0,
   );
-  // Exported menu link: menu-admin-shortcuts-site-action:admin/config/system/site-information
-  $menu_links['menu-admin-shortcuts-site-action:admin/config/system/site-information'] = array(
-    'menu_name' => 'menu-admin-shortcuts-site-action',
-    'link_path' => 'admin/config/system/site-information',
-    'router_path' => 'admin/config/system/site-information',
-    'link_title' => 'Edit Site Name',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Edit your site name',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-47',
-    'parent_path' => 'admin/stanford-jumpstart',
-  );
-  // Exported menu link: menu-admin-shortcuts-site-action:admin/manage
-  $menu_links['menu-admin-shortcuts-site-action:admin/manage'] = array(
-    'menu_name' => 'menu-admin-shortcuts-site-action',
-    'link_path' => 'admin/manage',
-    'router_path' => 'admin/manage',
-    'link_title' => 'Manage Content',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-50',
-    'parent_path' => 'admin/stanford-jumpstart',
-  );
-  // Exported menu link: menu-admin-shortcuts-site-action:admin/structure/taxonomy_manager/voc
-  $menu_links['menu-admin-shortcuts-site-action:admin/structure/taxonomy_manager/voc'] = array(
-    'menu_name' => 'menu-admin-shortcuts-site-action',
-    'link_path' => 'admin/structure/taxonomy_manager/voc',
-    'router_path' => 'admin/structure/taxonomy_manager/voc',
-    'link_title' => 'Manage Taxonomies',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-49',
-    'parent_path' => 'admin/stanford-jumpstart',
-  );
-  // Exported menu link: menu-admin-shortcuts-site-action:admin/people
-  $menu_links['menu-admin-shortcuts-site-action:admin/people'] = array(
-    'menu_name' => 'menu-admin-shortcuts-site-action',
-    'link_path' => 'admin/people',
-    'router_path' => 'admin/people',
-    'link_title' => 'Manage Users',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Manage all site users, Add/remove permissions',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-48',
-    'parent_path' => 'admin/stanford-jumpstart',
-  );
-  // Exported menu link: menu-admin-shortcuts-site-action:admin/stanford-jumpstart
-  $menu_links['menu-admin-shortcuts-site-action:admin/stanford-jumpstart'] = array(
-    'menu_name' => 'menu-admin-shortcuts-site-action',
-    'link_path' => 'admin/stanford-jumpstart',
-    'router_path' => 'admin/stanford-jumpstart',
-    'link_title' => 'Site Actions',
-    'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '1',
-    'expanded' => '1',
-    'weight' => '-50',
-  );
-  // Exported menu link: menu-admin-shortcuts-site-action:admin/structure/menu/manage/main-menu
-  $menu_links['menu-admin-shortcuts-site-action:admin/structure/menu/manage/main-menu'] = array(
-    'menu_name' => 'menu-admin-shortcuts-site-action',
-    'link_path' => 'admin/structure/menu/manage/main-menu',
-    'router_path' => 'admin/structure/menu/manage/%',
-    'link_title' => 'Edit Main Menu',
-    'options' => array(
-      'attributes' => array(
-        'title' => 'Edit the links in your Main Menu',
-      ),
-    ),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-47',
-    'parent_path' => 'admin/stanford-jumpstart',
-  );
-  // Exported menu link: menu-admin-shortcuts-site-action:node/add/stanford-event
-  $menu_links['menu-admin-shortcuts-site-action:node/add/stanford-event'] = array(
+  // Exported menu link: menu-admin-shortcuts-site-action_add-event:node/add/stanford-event
+  $menu_links['menu-admin-shortcuts-site-action_add-event:node/add/stanford-event'] = array(
     'menu_name' => 'menu-admin-shortcuts-site-action',
     'link_path' => 'node/add/stanford-event',
     'router_path' => 'node/add/stanford-event',
@@ -205,17 +100,19 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
       'attributes' => array(
         'title' => '',
       ),
+      'identifier' => 'menu-admin-shortcuts-site-action_add-event:node/add/stanford-event',
     ),
     'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-43',
-    'parent_path' => 'admin/stanford-jumpstart',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -43,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
   );
-  // Exported menu link: menu-admin-shortcuts-site-action:node/add/stanford-news-item
-  $menu_links['menu-admin-shortcuts-site-action:node/add/stanford-news-item'] = array(
+  // Exported menu link: menu-admin-shortcuts-site-action_add-news-item:node/add/stanford-news-item
+  $menu_links['menu-admin-shortcuts-site-action_add-news-item:node/add/stanford-news-item'] = array(
     'menu_name' => 'menu-admin-shortcuts-site-action',
     'link_path' => 'node/add/stanford-news-item',
     'router_path' => 'node/add/stanford-news-item',
@@ -224,17 +121,19 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
       'attributes' => array(
         'title' => '',
       ),
+      'identifier' => 'menu-admin-shortcuts-site-action_add-news-item:node/add/stanford-news-item',
     ),
     'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-42',
-    'parent_path' => 'admin/stanford-jumpstart',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -42,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
   );
-  // Exported menu link: menu-admin-shortcuts-site-action:node/add/stanford-page
-  $menu_links['menu-admin-shortcuts-site-action:node/add/stanford-page'] = array(
+  // Exported menu link: menu-admin-shortcuts-site-action_add-page:node/add/stanford-page
+  $menu_links['menu-admin-shortcuts-site-action_add-page:node/add/stanford-page'] = array(
     'menu_name' => 'menu-admin-shortcuts-site-action',
     'link_path' => 'node/add/stanford-page',
     'router_path' => 'node/add/stanford-page',
@@ -243,17 +142,19 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
       'attributes' => array(
         'title' => '',
       ),
+      'identifier' => 'menu-admin-shortcuts-site-action_add-page:node/add/stanford-page',
     ),
     'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-41',
-    'parent_path' => 'admin/stanford-jumpstart',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -41,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
   );
-  // Exported menu link: menu-admin-shortcuts-site-action:node/add/stanford-person
-  $menu_links['menu-admin-shortcuts-site-action:node/add/stanford-person'] = array(
+  // Exported menu link: menu-admin-shortcuts-site-action_add-person:node/add/stanford-person
+  $menu_links['menu-admin-shortcuts-site-action_add-person:node/add/stanford-person'] = array(
     'menu_name' => 'menu-admin-shortcuts-site-action',
     'link_path' => 'node/add/stanford-person',
     'router_path' => 'node/add/stanford-person',
@@ -262,17 +163,19 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
       'attributes' => array(
         'title' => '',
       ),
+      'identifier' => 'menu-admin-shortcuts-site-action_add-person:node/add/stanford-person',
     ),
     'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-40',
-    'parent_path' => 'admin/stanford-jumpstart',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -40,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
   );
-  // Exported menu link: menu-admin-shortcuts-site-action:node/add/stanford-publication
-  $menu_links['menu-admin-shortcuts-site-action:node/add/stanford-publication'] = array(
+  // Exported menu link: menu-admin-shortcuts-site-action_add-publication:node/add/stanford-publication
+  $menu_links['menu-admin-shortcuts-site-action_add-publication:node/add/stanford-publication'] = array(
     'menu_name' => 'menu-admin-shortcuts-site-action',
     'link_path' => 'node/add/stanford-publication',
     'router_path' => 'node/add/stanford-publication',
@@ -281,17 +184,125 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
       'attributes' => array(
         'title' => '',
       ),
+      'identifier' => 'menu-admin-shortcuts-site-action_add-publication:node/add/stanford-publication',
     ),
     'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-39',
-    'parent_path' => 'admin/stanford-jumpstart',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -39,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
   );
-  // Exported menu link: menu-admin-shortcuts-site-action:node/add/stanford-publication
-  $menu_links['menu-admin-shortcuts-site-action:admin/stanford/jumpstart/shortcuts/clear-cache'] = array(
+  // Exported menu link: menu-admin-shortcuts-site-action_edit-main-menu:admin/structure/menu/manage/main-menu
+  $menu_links['menu-admin-shortcuts-site-action_edit-main-menu:admin/structure/menu/manage/main-menu'] = array(
+    'menu_name' => 'menu-admin-shortcuts-site-action',
+    'link_path' => 'admin/structure/menu/manage/main-menu',
+    'router_path' => 'admin/structure/menu/manage/%',
+    'link_title' => 'Edit Main Menu',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Edit the links in your Main Menu',
+      ),
+      'identifier' => 'menu-admin-shortcuts-site-action_edit-main-menu:admin/structure/menu/manage/main-menu',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
+  );
+  // Exported menu link: menu-admin-shortcuts-site-action_edit-site-name:admin/config/system/site-information
+  $menu_links['menu-admin-shortcuts-site-action_edit-site-name:admin/config/system/site-information'] = array(
+    'menu_name' => 'menu-admin-shortcuts-site-action',
+    'link_path' => 'admin/config/system/site-information',
+    'router_path' => 'admin/config/system/site-information',
+    'link_title' => 'Edit Site Name',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Edit your site name',
+      ),
+      'identifier' => 'menu-admin-shortcuts-site-action_edit-site-name:admin/config/system/site-information',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
+  );
+  // Exported menu link: menu-admin-shortcuts-site-action_manage-content:admin/manage
+  $menu_links['menu-admin-shortcuts-site-action_manage-content:admin/manage'] = array(
+    'menu_name' => 'menu-admin-shortcuts-site-action',
+    'link_path' => 'admin/manage',
+    'router_path' => 'admin/manage',
+    'link_title' => 'Manage Content',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-admin-shortcuts-site-action_manage-content:admin/manage',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
+  );
+  // Exported menu link: menu-admin-shortcuts-site-action:admin/structure/taxonomy_manager/voc
+  $menu_links['menu-admin-shortcuts-site-action:admin/structure/taxonomy_manager/voc'] = array(
+    'link_path' => 'admin/structure/taxonomy_manager/voc',
+    'link_title' => 'Manage Taxonomies',
+    'menu_name' => 'menu-admin-shortcuts-site-action',
+    'parent_path' => 'admin/stanford-jumpstart',
+    'router_path' => 'admin/structure/taxonomy_manager/voc',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Manage Taxonomies',
+      ),
+      'identifier' => 'menu-admin-shortcuts-site-action:admin/structure/taxonomy_manager/voc',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
+  );
+  // Exported menu link: menu-admin-shortcuts-site-action_manage-users:admin/people
+  $menu_links['menu-admin-shortcuts-site-action_manage-users:admin/people'] = array(
+    'menu_name' => 'menu-admin-shortcuts-site-action',
+    'link_path' => 'admin/people',
+    'router_path' => 'admin/people',
+    'link_title' => 'Manage Users',
+    'options' => array(
+      'attributes' => array(
+        'title' => 'Manage all site users, Add/remove permissions',
+      ),
+      'identifier' => 'menu-admin-shortcuts-site-action_manage-users:admin/people',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
+  );
+  // Exported menu link: menu-admin-shortcuts-site-action_refresh-site-content:admin/stanford/jumpstart/shortcuts/clear-cache
+  $menu_links['menu-admin-shortcuts-site-action_refresh-site-content:admin/stanford/jumpstart/shortcuts/clear-cache'] = array(
     'menu_name' => 'menu-admin-shortcuts-site-action',
     'link_path' => 'admin/stanford/jumpstart/shortcuts/clear-cache',
     'router_path' => 'admin/stanford/jumpstart/shortcuts/clear-cache',
@@ -301,16 +312,37 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
         'class' => 'su-clear-cache',
         'title' => 'Refresh Site Content',
       ),
+      'identifier' => 'menu-admin-shortcuts-site-action_refresh-site-content:admin/stanford/jumpstart/shortcuts/clear-cache',
     ),
     'module' => 'stanford_jsa_shortcuts',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '-38',
-    'parent_path' => 'admin/stanford-jumpstart',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -38,
+    'customized' => 0,
+    'parent_identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
   );
-
+  // Exported menu link: menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart
+  $menu_links['menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart'] = array(
+    'menu_name' => 'menu-admin-shortcuts-site-action',
+    'link_path' => 'admin/stanford-jumpstart',
+    'router_path' => 'admin/stanford-jumpstart',
+    'link_title' => 'Site Actions',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+      'identifier' => 'menu-admin-shortcuts-site-action_site-actions:admin/stanford-jumpstart',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -50,
+    'customized' => 0,
+  );
   // Translatables
   // Included for use with string extractors like potx.
   t('Add Event');
@@ -328,6 +360,7 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
   t('Ready to Launch?');
   t('Refresh Site Content');
   t('Site Actions');
+
 
   return $menu_links;
 }
