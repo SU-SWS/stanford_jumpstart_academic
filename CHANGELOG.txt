@@ -1,6 +1,16 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+Stanford Sites Jumpstart Academic 7.x-4.2 2014-09-09
+----------------------------------------------------
+Changes since 4.0-alpha2:
+By sheamck:
+  - Updated blocks for News and Events landing pages
+  - Updated shortcuts Feature to use Features 2.x
+
+There were no 4.0 or 4.1 releases; updating to 4.2 to have version number 
+compatibility with other Stanford Sites Jumpstart products
+
 Stanford Sites Jumpstart Academic 7.x-4.0-alpha2 2014-08-07
 --------------------------------------------------
 - Removed dependency on jumpstart_shortcuts and switched to jsa_shortcuts
