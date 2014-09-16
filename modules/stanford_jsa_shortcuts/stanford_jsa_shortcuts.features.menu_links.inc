@@ -306,11 +306,11 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
     'menu_name' => 'menu-admin-shortcuts-site-action',
     'link_path' => 'admin/stanford/jumpstart/shortcuts/clear-cache',
     'router_path' => 'admin/stanford/jumpstart/shortcuts/clear-cache',
-    'link_title' => 'Refresh Site Content',
+    'link_title' => 'Clear Site Cache',
     'options' => array(
       'attributes' => array(
         'class' => 'su-clear-cache',
-        'title' => 'Refresh Site Content',
+        'title' => "Don't see your changes? Clear your cache",
       ),
       'identifier' => 'menu-admin-shortcuts-site-action_refresh-site-content:admin/stanford/jumpstart/shortcuts/clear-cache',
     ),
@@ -351,6 +351,7 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
   t('Add Page');
   t('Add Person');
   t('Add Publication');
+  t('Clear Site Cache');
   t('Edit Main Menu');
   t('Edit Site Name');
   t('Get Help');
@@ -358,7 +359,6 @@ function stanford_jsa_shortcuts_menu_default_menu_links() {
   t('Manage Content');
   t('Manage Users');
   t('Ready to Launch?');
-  t('Refresh Site Content');
   t('Site Actions');
 
 
