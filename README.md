@@ -1,7 +1,7 @@
 #[Stanford Jumpstart Academic](https://github.com/SU-SWS/stanford_jumpstart_academic)
 ##### Version: 7.x-4.2
 
-Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)   
+Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)
 [Changelog.txt](CHANGELOG.txt)
 
 This module contains code for the JSA product. Current it is a container for other sub modules but will be the place for future additions outside of the installation profile.
@@ -10,15 +10,11 @@ This module contains code for the JSA product. Current it is a container for oth
 Sub Modules
 ---
 
-**[Stanford JSA Layouts](modules/stanford_jsa_layouts)**   
+**[Stanford JSA Layouts](modules/stanford_jsa_layouts)**
 This module contains a number of contexts that provide page layout options for the home page and internal pages.
 
-**[Stanford JSA Roles](modules/stanford_jsa_roles)**   
+**[Stanford JSA Roles](modules/stanford_jsa_roles)**
 This module contains a number of default user roles and permissions. Included in the roles are the ‘site owner’ and ‘editor’ roles.
-
-**[Stanford JSA Shortcuts](modules/stanford_jsa_shortcuts)**   
-This module provides a shortcuts bar of menu options to the top of the page for those users with the correct permissions. In the menu are links to commonly used administrative tasks. Also included in this module is a special cache clearing function that is provided to the roles in the jumpstart roles feature. 
-
 
 Installation
 ---
