@@ -377,6 +377,12 @@ function stanford_jsa_layouts_context_default_contexts() {
           'region' => 'sidebar_first',
           'weight' => '3',
         ),
+        'menu_block-stanford_jsa_layouts-1' => array(
+          'module' => 'menu_block',
+          'delta' => 'stanford_jsa_layouts-1',
+          'region' => 'sidebar_first',
+          'weight' => '4',
+        ),
         'views-934c9b9d8d2d2f2b37f050dcd3bba83c' => array(
           'module' => 'views',
           'delta' => '934c9b9d8d2d2f2b37f050dcd3bba83c',
