@@ -54,7 +54,6 @@ function stanford_jsa_roles_user_default_permissions() {
     'name' => 'access jumpstart features',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
       'site owner' => 'site owner',
     ),
     'module' => 'stanford_jumpstart',
