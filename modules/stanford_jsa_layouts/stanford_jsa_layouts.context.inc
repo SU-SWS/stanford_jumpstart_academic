@@ -657,9 +657,9 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-publications-block_4' => array(
+        'views-publications_common-block_4' => array(
           'module' => 'views',
-          'delta' => 'publications-block_4',
+          'delta' => 'publications_common-block_4',
           'region' => 'sidebar_second',
           'weight' => '-10',
         ),
