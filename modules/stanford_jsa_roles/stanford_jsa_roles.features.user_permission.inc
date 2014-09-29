@@ -49,6 +49,17 @@ function stanford_jsa_roles_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'access contextual links'.
+  $permissions['access contextual links'] = array(
+    'name' => 'access contextual links',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'contextual',
+  );
+
   // Exported permission: 'access jumpstart features'.
   $permissions['access jumpstart features'] = array(
     'name' => 'access jumpstart features',
