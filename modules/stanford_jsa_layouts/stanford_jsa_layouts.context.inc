@@ -749,12 +749,10 @@ function stanford_jsa_layouts_context_default_contexts() {
   );
   // place the appropriate login block, based on authentication scheme
   $wmd_login_block = array(
-      'webauth-webauth_login_block' => array(
-          'module' => 'webauth',
-          'delta' => 'webauth_login_block',
-          'region' => 'global_header',
-          'weight' => '-10',
-      ),
+    'module' => 'webauth',
+    'delta' => 'webauth_login_block',
+    'region' => 'global_header',
+    'weight' => '-10',
   );
   // 0 = WMD, 1 = SimpleSAMLphp
   $stanford_auth_method = variable_get('stanford_sites_auth_method', 0);
@@ -767,7 +765,7 @@ function stanford_jsa_layouts_context_default_contexts() {
     );
   }
   else {
-    $context->reactions['block']['blocks'][] = $wmd_login_block;
+    $context->reactions['block']['blocks']['webauth-webauth_login_block'] = $wmd_login_block;
   }
   $context->condition_mode = 0;
 
