@@ -1,6 +1,16 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+Stanford Sites Jumpstart Academic 7.x-4.3 2014-11-27
+----------------------------------------------------
+- Added use contextual links permission
+- BASIC-1057 | Updated upcoming events page to have menu on sidebar
+- BASIC-1057 | Removed Lindseys ability to see add features menu item
+- BASIC-1057 | Removed Howards ability to CRUD event/course importers
+- BASIC-1057 | Updated publications nodes to have more publications block on it
+- Removed jsa_shortcuts module as it is no longer needed. Updated permissions
+- Changing wording on Clear Site Cache menu item in Site Actions menu
+
 Stanford Sites Jumpstart Academic 7.x-4.2 2014-09-09
 ----------------------------------------------------
 Changes since 4.0-alpha2:
@@ -8,7 +18,7 @@ By sheamck:
   - Updated blocks for News and Events landing pages
   - Updated shortcuts Feature to use Features 2.x
 
-There were no 4.0 or 4.1 releases; updating to 4.2 to have version number 
+There were no 4.0 or 4.1 releases; updating to 4.2 to have version number
 compatibility with other Stanford Sites Jumpstart products
 
 Stanford Sites Jumpstart Academic 7.x-4.0-alpha2 2014-08-07
