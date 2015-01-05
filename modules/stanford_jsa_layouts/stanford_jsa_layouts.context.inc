@@ -696,12 +696,6 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'webauth-webauth_login_block' => array(
-          'module' => 'webauth',
-          'delta' => 'webauth_login_block',
-          'region' => 'global_header',
-          'weight' => '-10',
-        ),
         'stanford_jsa_layouts-2' => array(
           'module' => 'menu_block',
           'delta' => 'stanford_jsa_layouts-2',
@@ -753,6 +747,26 @@ function stanford_jsa_layouts_context_default_contexts() {
       ),
     ),
   );
+  // place the appropriate login block, based on authentication scheme
+  $wmd_login_block = array(
+    'module' => 'webauth',
+    'delta' => 'webauth_login_block',
+    'region' => 'global_header',
+    'weight' => '-10',
+  );
+  // 0 = WMD, 1 = SimpleSAMLphp
+  $stanford_auth_method = variable_get('stanford_sites_auth_method', 0);
+  if(($stanford_auth_method == 1) && (module_exists('stanford_ssp'))) {
+    $context->reactions['block']['blocks']['stanford_ssp-stanford_ssp_login_block'] = array(
+        'module' => 'stanford_ssp',
+        'delta' => 'stanford_ssp_login_block',
+        'region' => 'global_header',
+        'weight' => '-10',
+    );
+  }
+  else {
+    $context->reactions['block']['blocks']['webauth-webauth_login_block'] = $wmd_login_block;
+  }
   $context->condition_mode = 0;
 
   // Translatables
