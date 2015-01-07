@@ -696,12 +696,6 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'webauth-webauth_login_block' => array(
-          'module' => 'webauth',
-          'delta' => 'webauth_login_block',
-          'region' => 'global_header',
-          'weight' => '-10',
-        ),
         'stanford_jsa_layouts-2' => array(
           'module' => 'menu_block',
           'delta' => 'stanford_jsa_layouts-2',
