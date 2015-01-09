@@ -14,7 +14,6 @@ dependencies[] = search
 dependencies[] = stanford_events_importer
 dependencies[] = stanford_publication
 dependencies[] = views
-dependencies[] = webauth
 features[context][] = 9-col-banner-fsb-homepage
 features[context][] = about_location
 features[context][] = academics_graduate
