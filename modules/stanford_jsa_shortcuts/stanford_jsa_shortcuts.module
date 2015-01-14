@@ -11,6 +11,7 @@ include_once 'stanford_jsa_shortcuts.features.inc';
  */
 function stanford_jsa_shortcuts_block_info() {
   $blocks['hello']['info'] = t('Jumpstart Hello "User" Block');
+  $blocks['hello']['cache'] = DRUPAL_CACHE_PER_USER;
   return $blocks;
 }
 
