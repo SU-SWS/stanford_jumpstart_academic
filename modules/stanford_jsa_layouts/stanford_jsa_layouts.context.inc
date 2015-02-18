@@ -176,6 +176,39 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
+  $context->name = 'course_search';
+  $context->description = 'Courses search page';
+  $context->tag = 'Courses';
+  $context->conditions = array(
+    'path' => array(
+      'values' => array(
+        'courses/search' => 'courses/search',
+      ),
+    ),
+  );
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views-85c57f65aa0dee37d8aa5a5031e564bc' => array(
+          'module' => 'views',
+          'delta' => '85c57f65aa0dee37d8aa5a5031e564bc',
+          'region' => 'sidebar_first',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
+  $context->condition_mode = 0;
+
+  // Translatables
+  // Included for use with string extractors like potx.
+  t('Courses');
+  t('Courses search page');
+  $export['course_search'] = $context;
+
+  $context = new stdClass();
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->api_version = 3;
   $context->name = 'courses';
   $context->description = 'All pages in the Courses section';
   $context->tag = 'Courses';
@@ -212,39 +245,6 @@ function stanford_jsa_layouts_context_default_contexts() {
   t('All pages in the Courses section');
   t('Courses');
   $export['courses'] = $context;
-
-  $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
-  $context->api_version = 3;
-  $context->name = 'course_search';
-  $context->description = 'Courses search page';
-  $context->tag = 'Courses';
-  $context->conditions = array(
-    'path' => array(
-      'values' => array(
-        'courses/search' => 'courses/search',
-      ),
-    ),
-  );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'views-85c57f65aa0dee37d8aa5a5031e564bc' => array(
-          'module' => 'views',
-          'delta' => '85c57f65aa0dee37d8aa5a5031e564bc',
-          'region' => 'sidebar_first',
-          'weight' => '-10',
-        ),
-      ),
-    ),
-  );
-  $context->condition_mode = 0;
-
-  // Translatables
-  // Included for use with string extractors like potx.
-  t('Courses');
-  t('Courses search page');
-  $export['course_search'] = $context;
 
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
@@ -332,11 +332,11 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-stanford_events_views-block_2' => array(
+        'views-ad215e0528148b386833fa3db1f3b7dc' => array(
           'module' => 'views',
-          'delta' => 'stanford_events_views-block_2',
-          'region' => 'content',
-          'weight' => '-10',
+          'delta' => 'ad215e0528148b386833fa3db1f3b7dc',
+          'region' => 'sidebar_first',
+          'weight' => '-5',
         ),
         'views-934c9b9d8d2d2f2b37f050dcd3bba83c' => array(
           'module' => 'views',
@@ -437,7 +437,6 @@ function stanford_jsa_layouts_context_default_contexts() {
   // Included for use with string extractors like potx.
   t('Landing page for News section');
   t('News');
-
   $export['news'] = $context;
 
   $context = new stdClass();
