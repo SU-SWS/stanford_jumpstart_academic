@@ -1352,6 +1352,8 @@ function stanford_jsa_roles_user_default_permissions() {
     'name' => 'convert from stanford page to landing page',
     'roles' => array(
       'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
     ),
     'module' => 'stanford_landing_page_node_convert',
   );
