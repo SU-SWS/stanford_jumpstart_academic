@@ -1347,5 +1347,16 @@ function stanford_jsa_roles_user_default_permissions() {
     'module' => 'better_formats',
   );
 
+  // Exported permission: 'convert from stanford page to landing page'.
+  $permissions['convert from stanford page to landing page'] = array(
+    'name' => 'convert from stanford page to landing page',
+    'roles' => array(
+      'administrator' => 'administrator',
+    ),
+    'module' => 'stanford_landing_page_node_convert',
+  );
+
+
+
   return $permissions;
 }
