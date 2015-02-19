@@ -11,7 +11,7 @@ function stanford_jsa_layouts_context_default_contexts() {
   $export = array();
 
   $context = new stdClass();
-  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
+  $context->disabled = TRUE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = '9-col-banner-fsb-homepage';
   $context->description = 'Home page layout with an 9 column banner and first sidebar';
