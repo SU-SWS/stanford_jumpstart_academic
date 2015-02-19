@@ -167,3 +167,4 @@ features[user_permission][] = view bean revisions
 features[user_permission][] = view own unpublished content
 features[user_permission][] = view revisions
 features[user_permission][] = view the administration theme
+features[user_permission][] = convert from stanford page to landing page
