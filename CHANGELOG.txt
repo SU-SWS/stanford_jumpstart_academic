@@ -1,6 +1,19 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+7.x-4.4                                   2015-03-19
+----------------------------------------------------
+
+- Remove webauth login block from layouts module
+- BASIC-1136: Added show format select for xyz entity to roles module
+- 7.x-4.x-BASIC-852 | Update to past events context
+- BASIC-909: Added permission to convert page to landing page
+- BASIC-909: Added site owner and editor roles to convert perms
+- BASIC-1232 | Changed event_nodes context, removed mini-cal in sidebar
+- BASIC-1232 | Fixed stanford_jsa_layouts.context.inc to not be enabled by default
+- BASIC-1245: Added permissions for event series content
+
+
 Stanford Sites Jumpstart Academic 7.x-4.3 2014-11-27
 ----------------------------------------------------
 - Added use contextual links permission

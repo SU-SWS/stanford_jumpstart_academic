@@ -1,7 +1,8 @@
 #[Stanford Jumpstart Academic](https://github.com/SU-SWS/stanford_jumpstart_academic)
-##### Version: 7.x-4.3
+##### Version: 7.x-4.4
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)
+
 [Changelog.txt](CHANGELOG.txt)
 
 This module contains code for the JSA product. Current it is a container for other sub modules but will be the place for future additions outside of the installation profile.
