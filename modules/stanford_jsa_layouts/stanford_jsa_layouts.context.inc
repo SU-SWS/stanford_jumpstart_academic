@@ -360,17 +360,11 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'menu_block-stanford_jsa_layouts-1' => array(
-          'module' => 'menu_block',
-          'delta' => 'stanford_jsa_layouts-1',
-          'region' => 'sidebar_first',
-          'weight' => '-55',
-        ),
         'views--exp-stanford_events_views-page' => array(
           'module' => 'views',
           'delta' => '-exp-stanford_events_views-page',
           'region' => 'sidebar_first',
-          'weight' => '-54',
+          'weight' => '-9',
         ),
         'views-934c9b9d8d2d2f2b37f050dcd3bba83c' => array(
           'module' => 'views',
