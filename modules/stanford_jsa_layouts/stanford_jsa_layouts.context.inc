@@ -11,7 +11,7 @@ function stanford_jsa_layouts_context_default_contexts() {
   $export = array();
 
   $context = new stdClass();
-  $context->disabled = TRUE; /* Edit this to true to make a default context disabled initially */
+  $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
   $context->name = '9-col-banner-fsb-homepage';
   $context->description = 'Home page layout with an 9 column banner and first sidebar';
@@ -360,17 +360,17 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views--exp-stanford_events_views-page' => array(
-          'module' => 'views',
-          'delta' => '-exp-stanford_events_views-page',
-          'region' => 'sidebar_first',
-          'weight' => '3',
-        ),
         'menu_block-stanford_jsa_layouts-1' => array(
           'module' => 'menu_block',
           'delta' => 'stanford_jsa_layouts-1',
           'region' => 'sidebar_first',
-          'weight' => '4',
+          'weight' => '-55',
+        ),
+        'views--exp-stanford_events_views-page' => array(
+          'module' => 'views',
+          'delta' => '-exp-stanford_events_views-page',
+          'region' => 'sidebar_first',
+          'weight' => '-54',
         ),
         'views-934c9b9d8d2d2f2b37f050dcd3bba83c' => array(
           'module' => 'views',
