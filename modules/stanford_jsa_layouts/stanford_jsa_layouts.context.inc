@@ -510,9 +510,9 @@ function stanford_jsa_layouts_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'bean-jumpstart-why-i-teach' => array(
+        'bean-jumpstart-why-i-teach-block' => array(
           'module' => 'bean',
-          'delta' => 'jumpstart-why-i-teach',
+          'delta' => 'jumpstart-why-i-teach-block',
           'region' => 'sidebar_first',
           'weight' => '11',
         ),
