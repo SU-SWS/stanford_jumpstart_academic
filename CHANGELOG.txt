@@ -1,6 +1,12 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+7.x-4.5                                   2015-06-26
+----------------------------------------------------
+- Updated dependencies to add those that were missing.
+- Fix delta of why-i-teach block for people/faculty page on context.
+- Removed main menu from upcoming events context.
+
 7.x-4.4                                   2015-03-19
 ----------------------------------------------------
 
