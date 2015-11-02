@@ -348,6 +348,17 @@ function stanford_jsa_roles_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'convert from stanford page to landing page'.
+  $permissions['convert from stanford page to landing page'] = array(
+    'name' => 'convert from stanford page to landing page',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'stanford_landing_page_node_convert',
+  );
+
   // Exported permission: 'create stanford_course content'.
   $permissions['create stanford_course content'] = array(
     'name' => 'create stanford_course content',
@@ -383,6 +394,26 @@ function stanford_jsa_roles_user_default_permissions() {
     'name' => 'create stanford_event_importer content',
     'roles' => array(
       'administrator' => 'administrator',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'create stanford_event_series content'.
+  $permissions['create stanford_event_series content'] = array(
+    'name' => 'create stanford_event_series content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'create stanford_gallery content'.
+  $permissions['create stanford_gallery content'] = array(
+    'name' => 'create stanford_gallery content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
     ),
     'module' => 'node',
   );
@@ -488,6 +519,26 @@ function stanford_jsa_roles_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'delete any stanford_event_series content'.
+  $permissions['delete any stanford_event_series content'] = array(
+    'name' => 'delete any stanford_event_series content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete any stanford_gallery content'.
+  $permissions['delete any stanford_gallery content'] = array(
+    'name' => 'delete any stanford_gallery content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete any stanford_landing_page content'.
   $permissions['delete any stanford_landing_page content'] = array(
     'name' => 'delete any stanford_landing_page content',
@@ -572,6 +623,26 @@ function stanford_jsa_roles_user_default_permissions() {
     'name' => 'delete own stanford_event_importer content',
     'roles' => array(
       'administrator' => 'administrator',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete own stanford_event_series content'.
+  $permissions['delete own stanford_event_series content'] = array(
+    'name' => 'delete own stanford_event_series content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete own stanford_gallery content'.
+  $permissions['delete own stanford_gallery content'] = array(
+    'name' => 'delete own stanford_gallery content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
     ),
     'module' => 'node',
   );
@@ -793,6 +864,28 @@ function stanford_jsa_roles_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'edit any stanford_event_series content'.
+  $permissions['edit any stanford_event_series content'] = array(
+    'name' => 'edit any stanford_event_series content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit any stanford_gallery content'.
+  $permissions['edit any stanford_gallery content'] = array(
+    'name' => 'edit any stanford_gallery content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit any stanford_landing_page content'.
   $permissions['edit any stanford_landing_page content'] = array(
     'name' => 'edit any stanford_landing_page content',
@@ -902,6 +995,27 @@ function stanford_jsa_roles_user_default_permissions() {
     'name' => 'edit own stanford_event_importer content',
     'roles' => array(
       'administrator' => 'administrator',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit own stanford_event_series content'.
+  $permissions['edit own stanford_event_series content'] = array(
+    'name' => 'edit own stanford_event_series content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit own stanford_gallery content'.
+  $permissions['edit own stanford_gallery content'] = array(
+    'name' => 'edit own stanford_gallery content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
     ),
     'module' => 'node',
   );
@@ -1155,6 +1269,62 @@ function stanford_jsa_roles_user_default_permissions() {
     'module' => 'user',
   );
 
+  // Exported permission: 'show format selection for bean'.
+  $permissions['show format selection for bean'] = array(
+    'name' => 'show format selection for bean',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'better_formats',
+  );
+
+  // Exported permission: 'show format selection for field_collection_item'.
+  $permissions['show format selection for field_collection_item'] = array(
+    'name' => 'show format selection for field_collection_item',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'better_formats',
+  );
+
+  // Exported permission: 'show format selection for node'.
+  $permissions['show format selection for node'] = array(
+    'name' => 'show format selection for node',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'authenticated user' => 'authenticated user',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'better_formats',
+  );
+
+  // Exported permission: 'show format selection for taxonomy_term'.
+  $permissions['show format selection for taxonomy_term'] = array(
+    'name' => 'show format selection for taxonomy_term',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'better_formats',
+  );
+
+  // Exported permission: 'show format selection for user'.
+  $permissions['show format selection for user'] = array(
+    'name' => 'show format selection for user',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'better_formats',
+  );
+
   // Exported permission: 'stanford jumpstart admin shortcuts'.
   $permissions['stanford jumpstart admin shortcuts'] = array(
     'name' => 'stanford jumpstart admin shortcuts',
@@ -1290,125 +1460,6 @@ function stanford_jsa_roles_user_default_permissions() {
       'site owner' => 'site owner',
     ),
     'module' => 'system',
-  );
-
-  // Exported permission: 'show format selection for bean'.
-  $permissions['show format selection for bean'] = array(
-    'name' => 'show format selection for bean',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'better_formats',
-  );
-
-  // Exported permission: 'show format selection for field_collection_item'.
-  $permissions['show format selection for field_collection_item'] = array(
-    'name' => 'show format selection for field_collection_item',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'better_formats',
-  );
-
-  // Exported permission: 'show format selection for node'.
-  $permissions['show format selection for node'] = array(
-    'name' => 'show format selection for node',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'authenticated user' => 'authenticated user',
-      'editor' => 'editor',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'better_formats',
-  );
-
-  // Exported permission: 'show format selection for taxonomy_term'.
-  $permissions['show format selection for taxonomy_term'] = array(
-    'name' => 'show format selection for taxonomy_term',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'better_formats',
-  );
-
-  // Exported permission: 'show format selection for user'.
-  $permissions['show format selection for user'] = array(
-    'name' => 'show format selection for user',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'better_formats',
-  );
-
-  // Exported permission: 'convert from stanford page to landing page'.
-  $permissions['convert from stanford page to landing page'] = array(
-    'name' => 'convert from stanford page to landing page',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'stanford_landing_page_node_convert',
-  );
-
-  // Exported permission: 'create stanford_event_series content'.
-  $permissions['create stanford_event_series content'] = array(
-    'name' => 'create stanford_event_series content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete any stanford_event_series content'.
-  $permissions['delete any stanford_event_series content'] = array(
-    'name' => 'delete any stanford_event_series content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'delete own stanford_event_series content'.
-  $permissions['delete own stanford_event_series content'] = array(
-    'name' => 'delete own stanford_event_series content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit any stanford_event_series content'.
-  $permissions['edit any stanford_event_series content'] = array(
-    'name' => 'edit any stanford_event_series content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'node',
-  );
-
-  // Exported permission: 'edit own stanford_event_series content'.
-  $permissions['edit own stanford_event_series content'] = array(
-    'name' => 'edit own stanford_event_series content',
-    'roles' => array(
-      'administrator' => 'administrator',
-      'editor' => 'editor',
-      'site owner' => 'site owner',
-    ),
-    'module' => 'node',
   );
 
   return $permissions;
