@@ -498,6 +498,10 @@ function stanford_jsa_layouts_context_default_contexts() {
     'path' => array(
       'values' => array(
         'people/faculty' => 'people/faculty',
+        'people/faculty' => 'people/faculty/grid',
+        'people/faculty' => 'people/faculty/profiles',
+        'people/faculty' => 'people/faculty/list',
+        'people/faculty' => 'people/faculty/directory',
       ),
     ),
   );
