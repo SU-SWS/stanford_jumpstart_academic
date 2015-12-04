@@ -217,6 +217,7 @@ function stanford_jsa_layouts_context_default_contexts() {
       'values' => array(
         'courses' => 'courses',
         'courses/*' => 'courses/*',
+        '~courses/tags*' => '~courses/tags*',
       ),
     ),
   );
