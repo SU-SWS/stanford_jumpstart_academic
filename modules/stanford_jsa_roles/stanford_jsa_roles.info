@@ -27,6 +27,7 @@ dependencies[] = stanford_events_views
 dependencies[] = stanford_jumpstart
 dependencies[] = stanford_jumpstart_home
 dependencies[] = stanford_jumpstart_shortcuts
+dependencies[] = stanford_landing_page
 dependencies[] = stanford_landing_page_node_convert
 dependencies[] = stanford_news
 dependencies[] = stanford_person
