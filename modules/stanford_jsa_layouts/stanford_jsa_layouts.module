@@ -34,5 +34,16 @@ function stanford_jsa_layouts_menu_block_blocks() {
       'expanded'    => 1,
       'sort'        => 0,
     ),
+    'stanford_jsa_layouts-3' => array(
+      'menu_name'   => 'main-menu',
+      'parent_mlid' => 0,
+      'title_link'  => 0,
+      'admin_title' => 'Main Menu - Primary - 2+ Depth',
+      'level'       => 1,
+      'follow'      => 0,
+      'depth'       => 0,
+      'expanded'    => 1,
+      'sort'        => 0,
+    ),
   );
 }
