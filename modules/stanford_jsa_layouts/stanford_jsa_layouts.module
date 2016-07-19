@@ -38,10 +38,10 @@ function stanford_jsa_layouts_menu_block_blocks() {
       'menu_name'   => 'main-menu',
       'parent_mlid' => 0,
       'title_link'  => 0,
-      'admin_title' => 'Main Menu - Primary - 2+ Depth',
+      'admin_title' => 'Main Menu - Primary - 2 Depth',
       'level'       => 1,
       'follow'      => 0,
-      'depth'       => 0,
+      'depth'       => 2,
       'expanded'    => 1,
       'sort'        => 0,
     ),
@@ -120,7 +120,7 @@ function stanford_jsa_layouts_form_menu_overview_form_alter_submit($form, &$form
     variable_set("stanford_jsa_layouts_sitewide_context", $copy->name);
   }
 
-  // Load the active context.
+  // Load the active context. Could be either the clone or the original.
   $context = context_load($context_name);
 
   // If dropdowns enabled and the 1 level block is in place replace it with the
@@ -137,7 +137,8 @@ function stanford_jsa_layouts_form_menu_overview_form_alter_submit($form, &$form
     drupal_set_message("Drop down menu block has been enabled.", "status");
   }
 
-  // If single level block ensure that the single level menu_block is in place.
+  // If single level block setting is chosen ensure that the single level
+  // menu_block is in place no matter which context it is.
   if (!$drops && !isset($context->reactions['block']['blocks']['stanford_jsa_layouts-2'])) {
     unset($context->reactions['block']['blocks']['stanford_jsa_layouts-3']);
     $context->reactions['block']['blocks']['stanford_jsa_layouts-2'] = array(
