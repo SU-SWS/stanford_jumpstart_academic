@@ -1,6 +1,16 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+7.x-4.6                                   2016-08-12
+----------------------------------------------------
+- Added Site owner and Editor permissions for stanford_gallery
+- basic-1435: added new paths for faculty
+- basic-1435: fixed new paths for faculty
+- basic-1435: added why I teach to new url paths
+- Added condition to courses layout to not include courses tag path
+- Small change to courses context condition path
+- One should not depend on oneself; Updated .info dependencies
+
 7.x-4.5                                   2015-06-26
 ----------------------------------------------------
 - Updated dependencies to add those that were missing.
