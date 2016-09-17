@@ -7,6 +7,7 @@ Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 - Added context switching toggle
 - Drop down menu set to maximum 2 level depth
 - Added .codeclimate.yml
+
 7.x-5.x                                   2016-04-12
 -----------------------------------------------------
 
