@@ -27,3 +27,13 @@ function stanford_jumpstart_academic_disable() {
  */
 function stanford_jumpstart_academic_uninstall() {
 }
+
+/**
+ * Disable the preview button on node types.
+ */
+function stanford_jumpstart_academic_update_7100() {
+  $types = node_type_get_types();
+  foreach (array_keys($types) as $type) {
+    variable_set("node_preview_$type", 0);
+  }
+}
