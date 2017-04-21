@@ -1,6 +1,10 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+7.x-5.1-alpha2                                 2017-04-21
+---------------------------------------------------------
+- Default hide preview button on node edit form.
+
 7.x-5.1-alpha1                                 2017-04-03
 ---------------------------------------------------------
 - Added view unpublished module
