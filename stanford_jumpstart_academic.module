@@ -18,12 +18,3 @@ function stanford_jumpstart_academic_help($path, $arg) {
       return '<p>' . t('Needs Work %email', array('%email' => l('SWS','mailto:sitesjumpstart-help@lists.stanford.edu'))) . '</p>';
   }
 }
-
-/**
- * Implements hook_form_FORM_ID_alter().
- */
-function stanford_jumpstart_academic_form_node_type_form_alter(&$form, &$form_state, $form_id) {
-  if (empty($form['#node_type']->type)) {
-    $form['submission']['node_preview']['#default_value'] = 0;
-  }
-}
