@@ -476,7 +476,6 @@ function stanford_jsa_roles_user_default_permissions() {
     'name' => 'create stanford_story_page content',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
       'site owner' => 'site owner',
     ),
     'module' => 'node',
