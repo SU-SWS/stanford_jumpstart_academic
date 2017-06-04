@@ -471,6 +471,16 @@ function stanford_jsa_roles_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'create stanford_story_page content'.
+  $permissions['create stanford_story_page content'] = array(
+    'name' => 'create stanford_story_page content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'create url aliases'.
   $permissions['create url aliases'] = array(
     'name' => 'create url aliases',
@@ -589,6 +599,16 @@ function stanford_jsa_roles_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'delete any stanford_story_page content'.
+  $permissions['delete any stanford_story_page content'] = array(
+    'name' => 'delete any stanford_story_page content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'delete own stanford_course content'.
   $permissions['delete own stanford_course content'] = array(
     'name' => 'delete own stanford_course content',
@@ -692,6 +712,16 @@ function stanford_jsa_roles_user_default_permissions() {
   // Exported permission: 'delete own stanford_publication content'.
   $permissions['delete own stanford_publication content'] = array(
     'name' => 'delete own stanford_publication content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'delete own stanford_story_page content'.
+  $permissions['delete own stanford_story_page content'] = array(
+    'name' => 'delete own stanford_story_page content',
     'roles' => array(
       'administrator' => 'administrator',
       'site owner' => 'site owner',
@@ -941,6 +971,17 @@ function stanford_jsa_roles_user_default_permissions() {
     'module' => 'node',
   );
 
+  // Exported permission: 'edit any stanford_story_page content'.
+  $permissions['edit any stanford_story_page content'] = array(
+    'name' => 'edit any stanford_story_page content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
   // Exported permission: 'edit bean view mode'.
   $permissions['edit bean view mode'] = array(
     'name' => 'edit bean view mode',
@@ -1065,6 +1106,17 @@ function stanford_jsa_roles_user_default_permissions() {
   // Exported permission: 'edit own stanford_publication content'.
   $permissions['edit own stanford_publication content'] = array(
     'name' => 'edit own stanford_publication content',
+    'roles' => array(
+      'administrator' => 'administrator',
+      'editor' => 'editor',
+      'site owner' => 'site owner',
+    ),
+    'module' => 'node',
+  );
+
+  // Exported permission: 'edit own stanford_story_page content'.
+  $permissions['edit own stanford_story_page content'] = array(
+    'name' => 'edit own stanford_story_page content',
     'roles' => array(
       'administrator' => 'administrator',
       'editor' => 'editor',
