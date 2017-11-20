@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @file
  * stanford_jsa_user_rules.rules_defaults.inc

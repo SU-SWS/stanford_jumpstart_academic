@@ -11,7 +11,7 @@
 function stanford_jsa_user_rules_schema() {
   $schema = array();
 
-  $schema['jsa_user_changes'] = array(
+  $schema['stanford_jsa_user_changes'] = array(
     'description' => 'Table logs user update history',
     'fields' => array(
       'id' => array(

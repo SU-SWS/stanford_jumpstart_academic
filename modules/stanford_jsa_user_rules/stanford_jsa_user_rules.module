@@ -19,5 +19,15 @@ function stanford_jsa_user_rules_user_update(&$edit, $account, $category) {
     'updated_time' => time(),
     'updated' => json_encode(array('original' => $original, 'current' => $new)),
   ];
-  drupal_write_record('jsa_user_changes', $record);
+  drupal_write_record('stanford_jsa_user_changes', $record);
+}
+
+/**
+ * Implements hook_cron().
+ */
+function stanford_jsa_user_rules_cron() {
+  // Delete all records older than 2 weeks.
+  db_delete('stanford_jsa_user_changes')
+    ->condition('updated_time', time() - (60 * 60 * 24 * 14), '<')
+    ->execute();
 }
