@@ -51,10 +51,10 @@ env:
     - PRODUCT_NAME="jumpstart-academic"
     - ENABLE_MODULES="stanford_jumpstart_academic stanford_jsa_layouts stanford_jsa_roles"
     - DISABLE_MODULES="webauth"
-#    - DEPLOYER_BRANCH=""
-#    - DRUPAL_PROFILE_BRANCH=""
-#    - CLICKY_BRANCH=""
-#    - SCRIPTS_BRANCH=""
+    - DEPLOYER_BRANCH=""
+    - DRUPAL_PROFILE_BRANCH=""
+    - CLICKY_BRANCH=""
+    - SCRIPTS_BRANCH="test-chrome-update"
 
 language: php
 php:
