@@ -1,6 +1,12 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+7.x-5.1-alpha3                                 2017-12-08
+---------------------------------------------------------
+- HSDO-1110: added rules and a table to email and record user changes
+- change db table and added cron cleanup
+- HSDO-1110: added rules and a table to email and record user changes
+
 7.x-5.1-alpha2                                 2017-04-21
 ---------------------------------------------------------
 - Default hide preview button on node edit form.
