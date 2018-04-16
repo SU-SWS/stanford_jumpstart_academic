@@ -124,8 +124,6 @@ function stanford_jsa_roles_user_default_permissions() {
     'name' => 'administer beans',
     'roles' => array(
       'administrator' => 'administrator',
-      'editor' => 'editor',
-      'site owner' => 'site owner',
     ),
     'module' => 'bean',
   );
