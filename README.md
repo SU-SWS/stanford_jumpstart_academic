@@ -1,5 +1,5 @@
 # [Stanford Jumpstart Academic](https://github.com/SU-SWS/stanford_jumpstart_academic)
-##### Version: 7.x-6.0-alpha1
+##### Version: 7.x-6.1-dev
 
 Maintainers: [jbickar](https://github.com/jbickar), [sherakama](https://github.com/sherakama)
 
