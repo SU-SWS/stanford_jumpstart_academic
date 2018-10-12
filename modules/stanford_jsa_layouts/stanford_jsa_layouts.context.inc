@@ -297,7 +297,18 @@ function stanford_jsa_layouts_context_default_contexts() {
       ),
     ),
   );
-  $context->reactions = array();
+  $context->reactions = array(
+    'block' => array(
+      'blocks' => array(
+        'views-934c9b9d8d2d2f2b37f050dcd3bba83c' => array(
+          'module' => 'views',
+          'delta' => '934c9b9d8d2d2f2b37f050dcd3bba83c',
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
+      ),
+    ),
+  );
   $context->condition_mode = 0;
 
   // Translatables
