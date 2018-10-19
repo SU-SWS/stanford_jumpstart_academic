@@ -10,3 +10,20 @@
 function stanford_jumpstart_academic_update_7100() {
   // Removed.
 }
+
+/**
+ * Set any missing variables.
+ */
+function stanford_jumpstart_academic_update_7600(){
+  $variables = [
+    'stanford_jumpstart_help_pages_help',
+    'stanford_jumpstart_help_pages_features',
+    'stanford_jumpstart_help_pages_launch',
+  ];
+  foreach ($variables as $variable) {
+    if (variable_get($variable)) {
+      $help_text = file_get_contents(drupal_get_path('module', 'stanford_jumpstart_academic') . "/help-text/$variable.html");
+      variable_set($variable, array('content' => array('#markup' => $help_text)));
+    }
+  }
+}
