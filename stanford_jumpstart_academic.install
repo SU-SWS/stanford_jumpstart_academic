@@ -21,7 +21,7 @@ function stanford_jumpstart_academic_update_7600(){
     'stanford_jumpstart_help_pages_launch',
   ];
   foreach ($variables as $variable) {
-    if (variable_get($variable)) {
+    if (empty(variable_get($variable))) {
       $help_text = file_get_contents(drupal_get_path('module', 'stanford_jumpstart_academic') . "/help-text/$variable.html");
       variable_set($variable, array('content' => array('#markup' => $help_text)));
     }
