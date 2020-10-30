@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Code for the Stanford Sites Jumpstart Academic D8 People Exporter feature.
+ */
+
+include_once 'stanford_jsa_d8_exporter_people.features.inc';
