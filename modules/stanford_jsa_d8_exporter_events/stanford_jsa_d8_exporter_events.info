@@ -1,5 +1,5 @@
-name = Stanford Sites Jumpstart Academic D8 Publications Exporter
-description = Provides views for exporting publications data. Based off of stanford_events_export
+name = Stanford Sites Jumpstart Academic D8 Events Exporter
+description = Provides views for exporting events data. Based off of stanford_events_export
 core = 7.x
 package = Stanford Sites Jumpstart Academic
 version = 7.x-6.1-dev
