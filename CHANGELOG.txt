@@ -1,6 +1,14 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+Stanford Sites Jumpstart Academic 7.x-6.0-alpha2, 2020-11-11
+------------------------------------------------------------
+- Added 4 JSA D8 views export feature modules
+  - Events
+  - News
+  - People
+  - Publications
+
 7.x-6.0-alpha1                                 2018-07-04
 ---------------------------------------------------------
 
