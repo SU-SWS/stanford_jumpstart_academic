@@ -328,11 +328,11 @@ function stanford_jsa_d8_exporter_publications_views_default_views() {
   $handler->display->display_options['fields']['field_s_pub_type']['label'] = 'type';
   $handler->display->display_options['fields']['field_s_pub_type']['type'] = 'taxonomy_term_reference_plain';
   $handler->display->display_options['defaults']['sorts'] = FALSE;
-  /* Sort criterion: Content: Date and Time -  start date (field_stanford_event_datetime) */
-  $handler->display->display_options['sorts']['field_stanford_event_datetime_value']['id'] = 'field_stanford_event_datetime_value';
-  $handler->display->display_options['sorts']['field_stanford_event_datetime_value']['table'] = 'field_data_field_stanford_event_datetime';
-  $handler->display->display_options['sorts']['field_stanford_event_datetime_value']['field'] = 'field_stanford_event_datetime_value';
-  $handler->display->display_options['sorts']['field_stanford_event_datetime_value']['order'] = 'DESC';
+  /* Sort criterion: Content: Date added (field_s_publication_year) */
+  $handler->display->display_options['sorts']['field_s_publication_year_value']['id'] = 'field_s_publication_year_value';
+  $handler->display->display_options['sorts']['field_s_publication_year_value']['table'] = 'field_data_field_s_publication_year';
+  $handler->display->display_options['sorts']['field_s_publication_year_value']['field'] = 'field_s_publication_year_value';
+  $handler->display->display_options['sorts']['field_s_publication_year_value']['order'] = 'DESC';
   $handler->display->display_options['defaults']['filter_groups'] = FALSE;
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
