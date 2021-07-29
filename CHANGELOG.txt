@@ -1,6 +1,10 @@
 Stanford Sites Jumpstart Academic x.x-x.x xxxx-xx-xx
 -------------------------------------------
 
+Stanford Sites Jumpstart Academic 7.x-6.0-alpha3, 2021-07-29
+------------------------------------------------------------
+- Fixed sort filter criteria in JSA views export feature modules (for consumption by D8)
+
 Stanford Sites Jumpstart Academic 7.x-6.0-alpha2, 2020-11-11
 ------------------------------------------------------------
 - Added 4 hidden JSA views export feature modules (for consumption by D8)
